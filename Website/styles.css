@@ -32,6 +32,14 @@ h1 {
     font-size: 6rem;
 }
 
+h3 {
+    font-size: 4rem;
+}
+
+h5 {
+    font-size: 2rem;
+}
+
 p {
     font-size: 2rem;
     font-family: 'Noto-Sans-Thin';
@@ -141,6 +149,7 @@ header button:hover {
     color: #ffffff;
     margin: 0;
     padding: 0;
+    padding-top: 5rem;
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -159,16 +168,24 @@ header button:hover {
     max-width: 80rem;
     align-self: center;
     justify-self: center;
+    align-content: center;
+    justify-content: center;
+    padding-bottom: 5rem;
 }
 
 .genre-header {
-    text-align: center;
+    display: flex;
+    justify-content: center;
     border-width: 1rem;
     border-radius: 5rem;
     padding: 1rem 40rem;
-    background-color: aqua;
+    background-image: url(images/maths-wallpaper.jpg);
+    background-size: cover;
     border-color: aquamarine;
-    align-content: center;
+}
+
+.genre-header h1 {
+    text-align: center;
 }
 
 .track-list {
@@ -185,6 +202,22 @@ header button:hover {
     align-items: center;
     gap: 30px;
     height: 10rem;
+}
+
+.track-guidance {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.track-guidance-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.track-guidance-2 p {
+    margin-right: 8.5rem;
 }
 
 .track-info {
@@ -208,10 +241,11 @@ header button:hover {
 
 .track-meta {
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    gap: 20px;
     color: white;
     font-size: 0.9rem;
+    width: 28rem
 }
         
 .play-pause-btn {
@@ -225,6 +259,11 @@ header button:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.coming-soon {
+    justify-content: center;
+    text-align: center;
 }
 
 /* Album text */
