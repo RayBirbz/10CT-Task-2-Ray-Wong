@@ -137,9 +137,8 @@ header button:hover {
 
 /* Player */
 .body {
-    background-color: #121212;
+    background-color: rgb(24, 24, 24);
     color: #ffffff;
-    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     display: flex;
@@ -153,7 +152,23 @@ header button:hover {
     max-width: 120rem;
     padding: 20px;
     box-sizing: border-box;
-    height: 100em
+    height: 100rem
+}
+
+.genre-header-container {
+    max-width: 80rem;
+    align-self: center;
+    justify-self: center;
+}
+
+.genre-header {
+    text-align: center;
+    border-width: 1rem;
+    border-radius: 5rem;
+    padding: 1rem 40rem;
+    background-color: aqua;
+    border-color: aquamarine;
+    align-content: center;
 }
 
 .track-list {
@@ -179,33 +194,24 @@ header button:hover {
 }
 
 .track-thumbnail {
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
     border-radius: 5px;
     object-fit: cover;
     margin-right: 15px;
 }
 
 .track-details {
-    flex-grow: 1;
-}
-
-.track-details .song-title {
-    font-weight: bold;
-    font-size: 1.1em;
-}
-
-.track-details .artist {
-    color: #b3b3b3;
-    font-size: 0.9em;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .track-meta {
     display: flex;
     align-items: center;
     gap: 20px;
-    color: #b3b3b3;
-    font-size: 0.9em;
+    color: white;
+    font-size: 0.9rem;
 }
         
 .play-pause-btn {
@@ -213,7 +219,7 @@ header button:hover {
     border: none;
     color: #fff;
     cursor: pointer;
-    font-size: 2em;
+    font-size: 2rem;
     width: 40px;
     height: 40px;
     display: flex;
@@ -222,6 +228,19 @@ header button:hover {
 }
 
 /* Album text */
+
 .song-title p {
+    font-size: 2.5rem;
+    color: white
+}
+
+.artist p {
+    font-family: "Noto-Sans-Bold";
     font-size: 2rem;
+    color: white;
+}
+
+.genre p .length p {
+    font-size: 2rem;
+    color: white;
 }
