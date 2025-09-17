@@ -175,17 +175,19 @@ header button:hover {
 
 .genre-header {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
-    border-width: 1rem;
+    width: 80rem;
+    height: 20.2rem;
     border-radius: 5rem;
-    padding: 1rem 40rem;
-    background-image: url(images/maths-wallpaper.jpg);
     background-size: cover;
-    border-color: aquamarine;
+    padding: 0;
 }
 
-.genre-header h1 {
+.genre-header h1, .genre-header p {
     text-align: center;
+    margin: 0;
 }
 
 .track-list {
