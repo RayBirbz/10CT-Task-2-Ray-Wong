@@ -9,6 +9,11 @@
 }
 
 @font-face {
+    font-family: Noto-Sans-SemiBold;
+    src: url(fonts/NotoSans-SemiBold.ttf)
+}
+
+@font-face {
     font-family: Noto-Sans-Thin;
     src: url(fonts/NotoSans-Light.ttf)
 }
@@ -34,6 +39,11 @@ h1 {
 
 h3 {
     font-size: 4rem;
+}
+
+h4 {
+    font-size: 3rem;
+    font-family: 'Noto-Sans-SemiBold';
 }
 
 h5 {
@@ -141,6 +151,29 @@ header button:hover {
     display: flex;
     justify-content: space-around;
     flex-direction: row;
+    padding: 0 20rem;
+}
+
+.div-1-subtext {
+    align-items: center;
+    text-align: center;
+}
+
+.div-1-rows-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 25rem;
+}
+
+.div-1-rows-box img {
+    width: 16rem;
+}
+
+.div-1-rows-box h4 {
+    margin: 0;
 }
 
 /* Player */
