@@ -124,7 +124,7 @@ header button:hover {
     margin-bottom: 7rem;
 }
 
-.div-1 button {
+.div-1 a button {
     background-color: rgba(157, 0, 155, 0.5);
     border-width: 1rem;
     border-color: rgb(199, 0, 196);
@@ -132,7 +132,7 @@ header button:hover {
     font-family: 'Noto-Sans-Bold';
     font-size: 5rem;
     border-radius: 5rem;
-    margin: 0rem 30rem;
+    width: 100rem;
     padding: 5rem 0rem;
     cursor: pointer;
     border-style:solid;
@@ -140,7 +140,11 @@ header button:hover {
     transition: 0.3s ease 0s;
 }
 
-.div-1 button:hover {
+.div-1 a {
+    margin:0
+}
+
+.div-1 a button:hover {
     background-color: rgb(199, 0, 196);
 }
 
@@ -362,4 +366,87 @@ header button:hover {
 .genre p .length p {
     font-size: 2rem;
     color: white;
+}
+
+/* Selection page */
+.selection-div-1 {
+    text-align: center;
+    color: white;
+    margin-bottom: 10rem;
+}
+
+.selection-div-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 10rem;
+}
+
+.selection-div-2 a button {
+    height: 24.5rem;
+    width: 50rem;
+}
+
+.maths-select {
+    background-image: url(images/maths-wallpaper.jpg);
+    background-size: cover;
+    border-width: 0.5rem;
+    border-color: rgb(255, 255, 255);
+    color: white;
+    font-family: 'Noto-Sans';
+    font-size: 5rem;
+    border-radius: 5rem;
+    padding: 5rem 0rem;
+    cursor: pointer;
+    border-style:solid;
+    box-shadow: 0 0 3rem 1.5rem rgba(255, 255, 255, 0.5);
+    transition: 0.3s ease 0s;
+}
+
+.maths-select:hover {
+    border-color: rgb(154, 160, 255);
+    box-shadow: 0 0 3rem 1.5rem rgb(181, 186, 255, 0.5);
+}
+
+.english-select {
+    background-image: url(images/english-wallpaper.jpg);
+    background-size: cover;
+    border-width: 0.5rem;
+    border-color: rgb(255, 255, 255);
+    color: white;
+    font-family: 'Noto-Sans';
+    font-size: 5rem;
+    border-radius: 5rem;
+    padding: 5rem 0rem;
+    cursor: pointer;
+    border-style:solid;
+    box-shadow: 0 0 3rem 1.5rem rgba(255, 255, 255, 0.5);
+    transition: 0.3s ease 0s;
+}
+
+.english-select:hover {
+    border-color: rgb(160, 160, 160);
+    box-shadow: 0 0 3rem 1.5rem rgba(138, 138, 138, 0.5);
+}
+
+.computer-select {
+    background-image: url(images/computer-wallpaper.jpg);
+    background-size: cover;
+    border-width: 0.5rem;
+    border-color: rgb(255, 255, 255);
+    color: white;
+    font-family: 'Noto-Sans';
+    font-size: 5rem;
+    border-radius: 5rem;
+    padding: 5rem 0rem;
+    cursor: pointer;
+    border-style:solid;
+    box-shadow: 0 0 3rem 1.5rem rgba(255, 255, 255, 0.5);
+    transition: 0.3s ease 0s;
+}
+
+.computer-select:hover {
+    border-color: rgb(255, 220, 168);
+    box-shadow: 0 0 3rem 1.5rem rgba(255, 220, 168, 0.5)
 }
