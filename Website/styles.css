@@ -24,6 +24,7 @@ html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -152,11 +153,13 @@ header button:hover {
     justify-content: space-around;
     flex-direction: row;
     padding: 0 20rem;
+    margin-bottom: 6rem;
 }
 
 .div-1-subtext {
     align-items: center;
     text-align: center;
+    margin-bottom: 6rem;
 }
 
 .div-1-rows-box {
@@ -174,6 +177,48 @@ header button:hover {
 
 .div-1-rows-box h4 {
     margin: 0;
+}
+
+/*Div 2 Items*/
+
+.div-2 {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0;
+    justify-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 5rem 25rem;
+    margin-top: 3rem;
+}
+
+.div-2-row {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 6rem;
+}
+
+.div-2-row-reverse {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin-bottom: 6rem;
+}
+
+.div-2-img img{
+    width: 30rem;
+}
+
+.div-2-card {
+    max-width: 50rem;
+    color: white;
+}
+
+.div-2-card p {
+    font-size: 2.5rem;
 }
 
 /* Player */
