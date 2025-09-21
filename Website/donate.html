@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=q, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Studify - Home</title>
+</head>
+<body>
+    <header id="header">
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="selection.html">Subjects</a></li>
+                <li><a href="index.html#div-2">About</a></li>
+                <li><a href="donate.html">Donate</a></li>
+            </ul>
+        </nav>
+        <a class="contact-button" href="index.html#contact"><button>Contact</button></a>
+    </header>
+    <div class="donate-heading">
+        <h1>Want to support us?</h1>
+        <h3>A small donation helps our mission to make studying to music as easy as possible!</h3>
+    </div>
+    <div class="select-amount">
+        <div class="select-amount-box">
+            <form>
+                <input class="select-amount-input" type="number" id="amount" name="amount" min="1" max="100">
+            </form>
+            <p style="color: white; text-align: center;">Amount</p>
+        </div>
+    </div>
+    <div class="donate-disclaimer">
+        <p style="font-style: italic;">*Minimum donations of $1 and maximum $100 only.</p>
+    </div>
+    <div class="payment-container">
+            <div class="payment-box">
+        <h3 style="margin: 1rem 0rem;">Confirm your payment</h3>
+        <div class="payment-row-1">
+            <div class="owner">
+                <h4 style="margin: 1rem 0rem;">Cardholder name</h4>
+                <div class="payment-input-field">
+                    <input type="text">
+                </div>
+            </div>
+            <div class="cvv">
+                <h4 style="margin: 1rem 0rem;">CVV/CVC</h4>
+                <div class="payment-input-field">
+                    <input type="password">
+                </div>
+            </div>
+        </div>
+        <div class="payment-row-2">
+            <div class="card-number">
+                <h4 style="margin: 1rem 0rem;">Card number</h4>
+                <div class="payment-input-field">
+                    <input type="text">
+                </div>
+            </div>
+        </div>
+        <div class="payment-row-3" style="margin: 3rem 0rem;">
+            <h4 style="margin: 1rem 0rem;">Expiry</h4>
+            <div class="payment-date-selection">
+                <div class="date">
+                    <select name="months" id="months">
+                        <option value="Jan">Jan</option>
+                        <option value="Feb">Feb</option>
+                        <option value="Mar">Mar</option>
+                        <option value="Apr">Apr</option>
+                        <option value="May">May</option>
+                        <option value="Jun">Jun</option>
+                        <option value="Jul">Jul</option>
+                        <option value="Aug">Aug</option>
+                        <option value="Sep">Sep</option>
+                        <option value="Oct">Oct</option>
+                        <option value="Nov">Nov</option>
+                        <option value="Dec">Dec</option>
+                    </select>
+                    <select name="years" id="years">
+                        <option value="2025">2025</option>
+                        <option value="2026">2026</option>
+                        <option value="2027">2027</option>
+                        <option value="2028">2028</option>
+                        <option value="2029">2029</option>
+                        <option value="2030">2030</option>
+                        <option value="2031">2031</option>
+                    </select>
+                </div>
+                <div class="card-imgs">
+                    <img src="images/mastercard.png">
+                    <img src="images/visa.png">
+                    <img src="images/paypal.png">
+                </div>
+            </div>
+        </div>
+        <a class="donate-confirm" href="#">Confirm</a>
+    </div>
+    </div>
+    <footer>
+        <div class="footer" id="contact">
+            <div class="footer-content">
+                <h4>Contact Us</h4>
+                <p>Email: contact@studify.com</p>
+                <p>Phone: +0123456789</p>
+                <p>Address: 123 Studify Lane, Sydney</p>
+            </div>
+            <div class="footer-content">
+                <h4>Quick Links</h4>
+                <ul class="footer-list">
+                    <li><a href="index.html#header">Home</a></li>
+                    <li><a href="index.html#div-2">About</a></li>
+                    <li><a href="donate.html">Donate</a></li>
+                    <li><a href="selection.html">Selection</a></li>
+                </ul>
+            </div>
+            <div class="footer-content">
+                <h4>Subject Links</h4>
+                <ul class="footer-list">
+                    <li><a href="maths.html">Mathematics</a></li>
+                    <li><a href="english.html">English</a></li>
+                    <li><a href="computer-science.html">Computer Science</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Studify, All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
